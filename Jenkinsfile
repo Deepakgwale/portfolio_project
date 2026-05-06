@@ -27,7 +27,7 @@ pipeline {
 
         stage('Run') {
             steps {
-                sh 'docker run -d -p 8080:8080 portfolio-app'
+                sh 'docker run -d -p 8082:8080 portfolio-app'
             }
         }
     }
